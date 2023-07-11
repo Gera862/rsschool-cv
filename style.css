@@ -36,7 +36,7 @@ html {
     line-height: 50px;
     text-decoration: none;
     transition: .3s;
-    color: orange;
+    color: #ff9000;
   }
 
 .section-item a {
@@ -90,5 +90,5 @@ footer {
 }
 
 .year {
-    color: orange;
+    color: #ff9000;
 }
