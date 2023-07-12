@@ -5,6 +5,8 @@ body {
     justify-content: space-between;
     min-height: 100vh;
     margin: 0; padding: 0;
+    background-color: #3B3B3B;
+    line-height: 1.5;
 }
 
 * {
@@ -16,7 +18,7 @@ html {
   }
 
 .header {
-    background-color: black;
+    background-color: #000000;
 }
 
 .container {
@@ -48,13 +50,16 @@ html {
     color: #474747;
   }
 
-.main-container {
+.main_container {
     display: flex;
     flex-wrap: wrap;
+    justify-content: space-between;
   }
   
 .section {
     width: 50%;
+    border-bottom: 1px solid white;
+    
   }
 
 .section-title {
@@ -66,15 +71,17 @@ html {
   }
 
 .photome {
-    display: inline-block;
+    display: flex;
+    justify-content: space-between;
     border-radius: 50%;
     overflow: hidden;
-    width: 300px;
-    height: 300px;
+    width: 200px;
+    height: 200px;
+    box-shadow: 0px 1px 10px chocolate;
 }
 
 footer {
-    background-color: black;
+    background-color: #000000;
 
 }
 
@@ -91,4 +98,39 @@ footer {
 
 .year {
     color: #ff9000;
+    font-size: large;
+}
+
+.section_title {
+    color:#ff9000;
+    
+    
+}
+
+#profile {
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    padding: 50px 50px 48px;
+    border-bottom: 1px solid white;
+
+}
+
+.list, p {
+    color: #E3E3E3;
+    letter-spacing: 1;
+}
+
+
+
+h1, h3 {
+    position: relative;
+    font-weight: 100;
+    font-size: 36px;
+    letter-spacing: 5px;
+}
+
+.githublink {
+    color:#ff9000;
+    text-decoration: none;
 }
