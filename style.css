@@ -41,12 +41,12 @@ html {
     color: #ff9000;
   }
 
-.section-item a {
+a {
     color: #474747;
     text-decoration: none;  
     transition: color 0.5s;
   }
-.section-item a:hover {
+a:hover {
     color: #474747;
   }
 
