@@ -59,15 +59,6 @@ a:hover {
 .section {
     width: 50%;
     border-bottom: 1px solid white;
-    
-  }
-
-.section-title {
-    font-size: 20px;
-    font-weight: 400;
-    text-transform: uppercase;
-    letter-spacing: 5px;
-    color: #829985;
   }
 
 .photome {
@@ -103,8 +94,11 @@ footer {
 
 .section_title {
     color:#ff9000;
-    
-    
+    font-size: 20px;
+    font-weight: 200;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    padding-left: 40px;
 }
 
 #profile {
@@ -116,7 +110,7 @@ footer {
 
 }
 
-.list, p {
+.list {
     color: #E3E3E3;
     letter-spacing: 1;
 }
@@ -125,7 +119,7 @@ footer {
 
 h1, h3 {
     position: relative;
-    font-weight: 100;
+    font-weight: 350;
     font-size: 36px;
     letter-spacing: 5px;
 }
@@ -133,4 +127,27 @@ h1, h3 {
 .githublink {
     color:#ff9000;
     text-decoration: none;
+}
+
+.section_titlename {
+    color:#ff9000;
+    font-weight: 370;
+}
+
+.section_titles {
+    color:#ff9000;
+    font-size: 20px;
+    font-weight: 200;
+    text-transform: uppercase;
+    letter-spacing: 5px;
+}
+
+.px {
+    margin-left: 30px;
+}
+
+p {
+    color: #E3E3E3;
+    letter-spacing: 1;
+    padding: 20px;
 }
